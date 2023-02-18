@@ -1,4 +1,16 @@
-body {
-    font-family: 'RocknRoll One', sans-serif;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: #3b7d3f;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
   }
