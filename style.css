@@ -9,8 +9,14 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'RocknRoll One', sans-serif;
     font-size: 5rem;
     color: white;
     text-align: center;
+    font-family: 'RocknRoll One', sans-serif;
+  }
+  
+  h1, p {
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
   }
