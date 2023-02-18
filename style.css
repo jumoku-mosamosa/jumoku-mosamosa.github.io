@@ -1,22 +1,23 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #3b7d3f;
+body {
+    background-color: #11646b; /* 和風の濃い緑 */
+    font-family: 'RocknRoll One', sans-serif; /* フォント */
+    font-size: 5vw; /* ページの幅に応じたフォントサイズ */
+    color: #FFFFFF; /* テキストの色を白に */
   }
-  
-  body {
+  h1 {
+    font-size: 5vw;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 5rem;
-    color: white;
-    text-align: center;
-    font-family: 'RocknRoll One', sans-serif;
-  }
-  
-  h1, p {
     margin: 0;
-    padding: 0;
-    white-space: pre-wrap;
+  }
+  p {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
   }
